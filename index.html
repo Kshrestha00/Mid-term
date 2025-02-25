@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header with Navbar -->
+    <header>
+      <nav>
+        <div class="left-section">
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+            target="_blank"
+            >HTML5</a
+          >
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+            >JavaScript</a
+          >
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+            >CSS</a
+          >
+        </div>
+        <div class="right-section">
+          <button data-bs-theme-value="dark">Dark</button>
+          <button data-bs-theme-value="light">Light</button>
+          <button>Contact Me</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- First Row -->
+      <div class="grid-row">
+        <div class="left-column">
+          <p>
+            This is a simple calculator to calculate the factorial of a number.
+          </p>
+        </div>
+        <div class="right-column">
+          <input
+            type="number"
+            id="numberInput"
+            placeholder="Enter a number"
+            style="font-size: 2rem; width: 100%"
+          />
+        </div>
+      </div>
+
+      <!-- Second Row -->
+      <div class="grid-row">
+        <div class="left-column">
+          <button id="enterButton" style="float: right">Enter</button>
+        </div>
+        <div class="right-column">
+          <div id="resultScreen"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Simple factorial calculator &copy 2025</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
